@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity"
+    android:gravity="center"
+    android:background="@color/colorRed"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LIST OF LAPTOPS"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Add buttons or icons for various dashboard features -->
+
+    <Button
+        android:id="@+id/btnDEL"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+
+        android:text="DEL" />
+
+    <Button
+        android:id="@+id/btnlENOVO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LENOVO" />
+
+    <Button
+        android:id="@+id/btnAcer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACER" />
+
+    <Button
+        android:id="@+id/btnApple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APPLE" />
+
+    <Button
+        android:id="@+id/btnmicrosoft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MICROSOFT" />
+
+    <Button
+        android:id="@+id/btnasus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ASUS" />
+
+
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Log Out" />
+
+</LinearLayout>
